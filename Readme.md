@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Константин Васенин](https://up.htmlacademy.ru/adaptive/19/user/245078).
-* Наставник: `Неизвестно`.
+* Наставник: [Мария Чернова](https://htmlacademy.ru/profile/id49571)
 
 ---
 
