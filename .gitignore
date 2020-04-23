@@ -11,3 +11,10 @@ npm-debug.*
 source/css/*.css
 source/css/*.map
 Thumbs.db
+<<<<<<< HEAD
+psd/
+preview/
+=======
+preview/
+psd/
+>>>>>>> module2-task1-old
