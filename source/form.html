@@ -51,32 +51,32 @@
         <legend class="review-form__introduce-legend">Представьтесь:</legend>
 
         <div class="review-form__input-wrapper">
-          <label class="review-form__name-label" for="1-name-input">Имя*:</label>
-          <input class="review-form__name-input" id="1-name-input" name="1st-name" type="text" placeholder="Петр">
+          <label class="review-form__label" for="firstname">Имя*:</label>
+          <input class="review-form__input" id="firstname" name="firstname" type="text" placeholder="Петр">
         </div>
 
         <div class="review-form__input-wrapper">
-          <label class="review-form__2nd-name-label" for="2-name-input">Фамилия*:</label>
-          <input class="review-form__name-input" id="2-name-input" name="2nd-name" type="text" placeholder="Иванов">
+          <label class="review-form__label" for="surname">Фамилия*:</label>
+          <input class="review-form__input" id="surname" name="surname" type="text" placeholder="Иванов">
         </div>
 
         <div class="review-form__input-wrapper">
-          <label class="review-form__3rd-name-label" for="3-name-input">Отчество:</label>
-          <input class="review-form__name-input" id="3-name-input" name="3rd-name" type="text" placeholder="Александрович">
+          <label class="review-form__label" for="patronymic">Отчество:</label>
+          <input class="review-form__input" id="patronymic" name="patronymic" type="text" placeholder="Александрович">
         </div>
       </fieldset>
 
       <fieldset class="review-form__contacts-fieldset">
         <legend class="review-form__contacts-legend">Контактная информация:</legend>
 
-        <div class="review-form__input-wrapper">
-          <label class="review-form__phone-label" for="phone-input">Контактный телефон*:</label>
-          <input class="review-form__phone-input" id="phone-input" type="tel" name="phone" placeholder="Введите телефон">
+        <div class="review-form__input-wrapper review-form__input-wrapper--contacts">
+          <label class="review-form__label" for="phone">Контактный телефон*:</label>
+          <input class="review-form__input review-form__input--phone" id="phone" type="tel" name="phone" placeholder="Введите телефон">
         </div>
 
-        <div class="review-form__input-wrapper">
-          <label class="review-form__email-label" for="email-input">Электронная почта*:</label>
-          <input class="review-form__name-input" id="email-input" type="email" name="email" placeholder="Введите e-mail">
+        <div class="review-form__input-wrapper review-form__input-wrapper--contacts">
+          <label class="review-form__label" for="email">Электронная почта*:</label>
+          <input class="review-form__input review-form__input--email" id="email" type="email" name="email" placeholder="Введите e-mail">
         </div>
       </fieldset>
 
@@ -104,25 +104,28 @@
         <legend class="review-form__showplace-legend">Посещенные достопримечательности:</legend>
 
         <div class="review-form__wrapper">
-          <input class="review-form__showplace" id="1-showplace" type="checkbox" name="1-showplace" checked>
-          <label class="review-form__showplace" for="1-showplace">Мост Дьявола</label>
+          <input class="review-form__showplace-input" id="1-showplace" type="checkbox" name="1-showplace" checked>
+          <label class="review-form__showplace-label" for="1-showplace">Мост Дьявола</label>
 
-          <input class="review-form__showplace" id="2-showplace" type="checkbox" name="2-showplace" checked>
-          <label class="review-form__showplace" for="2-showplace">Гора-Колокол</label>
+          <input class="review-form__showplace-input" id="2-showplace" type="checkbox" name="2-showplace" checked>
+          <label class="review-form__showplace-label" for="2-showplace">Гора-Колокол</label>
 
-          <input class="review-form__showplace" id="3-showplace" type="checkbox" name="3-showplace" checked>
-          <label class="review-form__showplace" for="3-showplace">Слайд-парк</label>
+          <input class="review-form__showplace-input" id="3-showplace" type="checkbox" name="3-showplace" checked>
+          <label class="review-form__showplace-label" for="3-showplace">Слайд-парк</label>
 
-          <input class="review-form__showplace" id="4-showplace" name="4-showplace" type="checkbox">
-          <label class="review-form__showplace" for="4-showplace">Красные скалы</label>
+          <input class="review-form__showplace-input" id="4-showplace" name="4-showplace" type="checkbox">
+          <label class="review-form__showplace-label" for="4-showplace">Красные скалы</label>
 
         </div>
 
-        <label class="review-form__emotion-label">ОПИШИТЕ СВОИ ЭМОЦИИ:</label>
+      </fieldset>
+
+      <fieldset class="review-form__emotion-fieldset">
+        <legend class="review-form__emotion-legend">Опишите свои эмоции:</legend>
         <textarea class="review-form__emotion-input" id="emotion-input">Опишите подробно все свои восторги</textarea>
       </fieldset>
 
-      <button class="review-form__submit-btn" type="submit">ОТПРАВИТЬ ОТЗЫВ</button>
+      <button class="review-form__submit-btn" type="submit">Отправить отзыв</button>
 
     </form>
   </section>
@@ -131,7 +134,7 @@
 
 
 <footer class="page-footer">
-  <h2 class="page-footer__tag">#VISITSEDONA</h2>
+  <h2 class="page-footer__tag">#visitsedona</h2>
 
   <ul class="social-list">
     <li class="social-list__item">
@@ -155,7 +158,7 @@
   </ul>
 
   <section class="page-footer__developers">
-    <p class="developers__text">РАЗРАБОТАНО</p>
+    <p class="developers__text">Разработано</p>
     <a class="developers__link" href="https://htmlacademy.ru/">
       <img class="developers__logo" src="https://via.placeholder.com/27x34" alt="HTML Academy">
     </a>
