@@ -1,0 +1,16 @@
+.video {
+  @include flex-col-sb;
+  align-items: center;
+
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.video__question {
+  @include txt-18-26-bold;
+
+}
+
+.video__invite {
+  @include txt-14-24-normal;
+}

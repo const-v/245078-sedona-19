@@ -1,0 +1,61 @@
+.page-footer {
+  @include flex-col-center;
+  align-items: center;
+}
+
+.page-footer__tag {
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.social-list,
+.page-footer__developers  {
+  list-style: none;
+
+  @include flex-row-sa;
+
+  width: 100%;
+  padding: 0;
+}
+
+.social-list__item {
+  @include flex-col-center;
+  align-items: center;
+
+  @include size(46px, 48px);
+
+  background: $blue-item-bg_normal;
+}
+
+.social-list__link:active {
+  opacity: 0.3;
+}
+
+.page-footer__developers {
+  @include flex-row-sa;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.developers__link {
+  content: "";
+  display: block;
+  background-image: url("../img/logo-htmlacademy.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  @include size(27px, 34px);
+
+}
+
+.developers__link:hover {
+  background-image: url("../img/logo-htmlacademy-hover.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.developers__link:active {
+  background-image: url("../img/logo-htmlacademy.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  opacity: 0.3;
+}

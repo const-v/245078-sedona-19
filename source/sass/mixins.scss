@@ -1,0 +1,87 @@
+/*
+Mixins
+*/
+
+
+@mixin txt-14-21-normal {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+@mixin txt-14-24-normal {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+@mixin txt-14-24-bold {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+@mixin txt-14-26-normal {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: normal;
+}
+
+@mixin txt-18-26-normal {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: normal;
+}
+
+@mixin txt-18-26-bold {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+@mixin txt-18-40-bold {
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+@mixin txt-21-26-bold {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+@mixin flex-col-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@mixin flex-col-sb {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@mixin flex-col-sa {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+@mixin flex-row-sa {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@mixin flex-row-sb {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}

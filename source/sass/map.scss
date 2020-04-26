@@ -1,0 +1,15 @@
+.map {
+  @include flex-col-center;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.map__question {
+  @include txt-21-26-bold;
+}
+
+.map__offer {
+  @include txt-14-24-normal;
+}
+

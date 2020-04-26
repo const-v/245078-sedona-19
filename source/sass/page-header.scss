@@ -1,0 +1,9 @@
+.page-header {
+  @include flex-col-center;
+}
+
+.page-header__logo {
+  @include size(102px, 83px);
+  margin: 0 auto;
+}
+

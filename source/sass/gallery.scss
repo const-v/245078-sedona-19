@@ -1,0 +1,22 @@
+.gallery {
+  @include flex-col-sa;
+  text-align: left;
+}
+
+.gallery__list {
+  list-style: none;
+}
+
+.gallery__caption {
+  @include txt-14-24-bold;
+  text-transform: uppercase;
+}
+
+.gallery__author,
+.gallery__likes {
+  @include txt-14-24-normal;
+}
+
+.gallery__likes {
+  font-weight: 700;
+}

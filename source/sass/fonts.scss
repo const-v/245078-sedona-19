@@ -1,0 +1,23 @@
+/*
+  Fonts
+*/
+
+/* pt-sans-regular */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src:  local('PT Sans'), local('PTSans-Regular'),
+  url('/source/fonts/ptsans.woff2') format('woff2'), /* Super Modern Browsers */
+  url('/source/fonts/ptsans.woff') format('woff'); /* Safari, Android, iOS */
+}
+
+/* pt-sans-700 */
+@font-face {
+  font-family: 'PT Sans Bold';
+  font-style: normal;
+  font-weight: 700;
+  src:  local('PT Sans Bold'), local('PTSans-Bold'),
+  url('/source/fonts/ptsansbold.woff2') format('woff2'), /* Super Modern Browsers */
+  url('/source/fonts/ptsansbold.woff') format('woff'); /* Safari, Android, iOS */
+}

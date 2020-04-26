@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/*
+all html
+*/
+
+@import "normalize";
+
+@import "variables";
+@import "fonts";
+@import "mixins";
+
+@import "visually-hidden";
+@import "buttons";
+
+
+@import "body";
+
+@import "page-header";
+@import "main-nav";
+@import "main-page";
+@import "welcome";
+@import "main-page";
+@import "page-footer";
+@import "social-list";
+
+/*
+index.html
+*/
+@import "main-page";
+@import "advantages";
+@import "map";
+
+/*
+photo.html
+*/
+@import "gallery";
+@import "video";
+
+/*
+form.html
+*/
+@import "review";
+@import "review-form";
+

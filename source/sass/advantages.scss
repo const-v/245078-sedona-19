@@ -1,0 +1,38 @@
+.advantages {
+  @include flex-col-center;
+
+  text-transform: uppercase;
+}
+
+.advantages__header {
+  @include txt-18-26-bold;
+}
+
+.advantages__number,
+.advantages__text {
+  @include txt-14-21-normal;
+}
+
+.advantages__item {
+  @include flex-col-sb;
+
+  text-align: center;
+  width: 100%;
+}
+
+.advantages__item--highlight {
+  background: $blue-item-bg_normal;
+
+  text-align: center;
+  color: white;
+}
+
+.advantages-photo {
+  width: 100%;
+}
+
+.advantages__item--icon-food,
+.advantages__item--icon-gift,
+.advantages__item--icon-house {
+  text-align: left;
+}

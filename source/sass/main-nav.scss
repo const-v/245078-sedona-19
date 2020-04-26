@@ -1,0 +1,40 @@
+.site-list {
+  @include flex-col-center;
+
+  list-style: none;
+
+  text-align: center;
+
+  padding: 0;
+  margin: 0;
+}
+
+.site-list__item {
+  @include txt-18-40-bold;
+
+  color: $blue-item-txt_normal;
+  background: $blue-item-bg_normal;
+
+  text-transform: uppercase;
+
+  margin-bottom: 1px;
+}
+
+.site-list__item-link {
+  display: block;
+  color: white;
+}
+
+.site-list__item a:hover {
+  background-color: $blue-item-bg_hover;
+}
+
+.site-list__item a:active {
+  background: $blue-item-bg_down;
+  color: $blue-item-txt_down;
+}
+
+.site-list__item-link:visited {
+  color: white;
+}
+
