@@ -6,33 +6,62 @@
 
 .advantages__header {
   @include txt-18-26-bold;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0;
+
 }
 
 .advantages__number,
 .advantages__text {
   @include txt-14-21-normal;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  margin: 0;
+
 }
 
 .advantages__item {
   @include flex-col-sb;
 
   text-align: center;
-  width: 100%;
+  width: 90%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px lightgray solid;
+  margin: 0 auto;
 }
 
 .advantages__item--highlight {
   background: $blue-item-bg_normal;
-
+  width: 100%;
   text-align: center;
   color: white;
+  padding-top: 45px;
+  margin: 0;
+  margin-top: 40px;
+  padding-bottom: 0;
+  border: none;
 }
 
 .advantages-photo {
   width: 100%;
+  padding-top: 45px;
 }
 
 .advantages__item--icon-food,
 .advantages__item--icon-gift,
 .advantages__item--icon-house {
   text-align: left;
+  border: none;
+  width: 100%;
 }
+
+.advantages-wrapper {
+  //padding-top: 40px;
+}
+
+//padding: 0 20px;
+//border: 1px black solid;
+

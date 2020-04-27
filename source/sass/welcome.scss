@@ -12,16 +12,21 @@
   width: 100%;
 
   padding-top:90px;
+  margin-top: -25px;
 }
 
 .welcome__header {
   margin-top: 130px;
+  padding-left: 20px;
+  padding-right: 20px;
 
   @include txt-18-26-bold;
 }
 
 .welcome__subheader {
   @include txt-14-26-normal;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .welcome__photo {
