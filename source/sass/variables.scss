@@ -2,23 +2,23 @@
 Colors
 */
 
-$blue-item-bg_normal: #81b3d2;
-$blue-item-bg_hover: #669ec0;
-$blue-item-bg_down: #5496bd;
-$blue-item-bg_disabled: #e5e5e5;
+$btn--normal: #81b3d2;
+$btn--hover: #669ec0;
+$btn--down: #5496bd;
+$btn--disabled: #e5e5e5;
 
-$blue-item-txt_normal: white;
-$blue-item-txt_hover: white;
-$blue-item-txt_down: rgba(255, 255, 255, 0.3);
-$blue-item-txt_disabled: white;
+$btn-txt--normal: #ffffff;
+$btn-txt--hover: #ffffff;
+$btn-txt--down: rgba(255, 255, 255, 0.3);
+$btn-txt-disabled: #ffffff;
 
-$menu-item_desk-normal: black;
-$menu-item_desk-hover: $blue-item-bg_normal;
-$menu-item_desk-down: rgba(118, 99, 87, 0.3);
+$menu--normal: #000000;
+$menu--hover: $btn--normal;
+$menu--down: rgba(118, 99, 87, 0.3);
 
-$menu-item_desk-normal-active: #766357;
-$menu-item_desk-hover-active: #604e43;
-$menu-item_desk-down-active: rgba(118, 99, 87, 0.3);
+$menu--normal-active: #766357;
+$menu--hover-active: #604e43;
+$menu--down-active: rgba(118, 99, 87, 0.3);
 
 $input-bg_normal: #f2f2f2;
 $input-bg_hover: #e5e5e5;
@@ -26,12 +26,12 @@ $input-bg_down: #d5d5d5;
 
 $input-check: #333333;
 
-$logo-html-a_hover: $blue-item-bg_normal;
+//$logo-html-a_hover: $btn--normal;
 
-$player-controller-mobile_normal: #5c6870;
-$player-controller-mobile_hover: $input-check;
-$player-controller-mobile_down: $input-check; // opacity 0.3
+$ctrl-mob--normal: #5c6870;
+$ctrl-mob--hover: $input-check;
+$ctrl-mob--down: $input-check; // opacity 0.3
 
-$player-controller-desk_normal: $player-controller-mobile_normal;
-$player-controller-desk_hover: $input-check;
-$player-controller-desk_down: $input-check; // opacity 0.3
+$ctrl-desk--down: $ctrl-mob--normal;
+$ctrl-desk--hover: $input-check;
+$ctrl-desk--down: $input-check; // opacity 0.3

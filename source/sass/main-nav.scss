@@ -12,8 +12,8 @@
 .site-list__item {
   @include txt-18-40-bold;
 
-  color: $blue-item-txt_normal;
-  background: $blue-item-bg_normal;
+  color: $btn-txt--normal;
+  background: $btn--normal;
 
   text-transform: uppercase;
 
@@ -22,21 +22,21 @@
 
 .site-list__item-link {
   display: block;
-  color: white;
+  color: $btn-txt--normal;
   height: 48px;
   padding-top: 7px;
 }
 
-.site-list__item a:hover {
-  background-color: $blue-item-bg_hover;
+.site-list__item-link:hover {
+  background-color: $btn--hover;
 }
 
-.site-list__item a:active {
-  background: $blue-item-bg_down;
-  color: $blue-item-txt_down;
+.site-list__item-link:active {
+  background: $btn--down;
+  color: $btn-txt--down;
 }
 
 .site-list__item-link:visited {
-  color: white;
+  color: $btn-txt--normal;
 }
 
